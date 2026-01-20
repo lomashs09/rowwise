@@ -1,0 +1,234 @@
+.table-details {
+  max-width: 1200px;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #1d4ed8;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title-with-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-indicator.healthy {
+  background-color: #f0fdf4;
+  color: #10b981;
+}
+
+.status-indicator .status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10b981;
+}
+
+.table-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.summary-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.card-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icon.blue svg {
+  color: #2563eb;
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-label {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.card-value {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.details-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.details-section {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 20px 0;
+}
+
+.chart-container {
+  width: 100%;
+}
+
+.chart {
+  display: flex;
+  gap: 12px;
+  min-height: 200px;
+}
+
+.chart-y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.y-label {
+  font-size: 12px;
+  color: #6b7280;
+  text-align: right;
+}
+
+.chart-content {
+  flex: 1;
+  position: relative;
+}
+
+.chart-area {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.chart-line {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-point-label {
+  position: absolute;
+  bottom: -24px;
+  left: 20%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.issues-content {
+  position: relative;
+}
+
+.issue-entry {
+  margin-bottom: 16px;
+}
+
+.issue-time {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.issue-message {
+  font-size: 14px;
+  color: #111827;
+}
+
+.clean-indicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #10b981;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.schema-changes {
+  grid-column: 1 / -1;
+}
+
+.schema-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.schema-message {
+  font-size: 14px;
+  color: #10b981;
+  margin: 0;
+}
+
+.schema-comment {
+  font-size: 13px;
+  color: #9ca3af;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+  margin: 0;
+}
